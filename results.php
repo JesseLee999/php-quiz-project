@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <title>Results</title>
 </head>
 <body>
 
@@ -32,6 +32,22 @@ $answer10 = $_POST['question-10-answers'];
 $answer11 = $_POST['question-11-answers'];
 
 $answer12 = $_POST['question-12-answers'];
+
+$answer13 = $_POST['question-12-answers'];
+
+$answer14 = $_POST['question-12-answers'];
+
+$answer15 = $_POST['question-12-answers'];
+
+$answer16 = $_POST['question-12-answers'];
+
+$answer17 = $_POST['question-12-answers'];
+
+$answer18 = $_POST['question-12-answers'];
+
+$answer19 = $_POST['question-12-answers'];
+
+$answer20 = $_POST['question-12-answers'];
 
 
 $totalCorrect = 0;
@@ -63,10 +79,43 @@ if ($answer11 == "A") { $totalCorrect++; }
 if ($answer11 == "C") { $totalCorrect++; }
 
 if ($answer12 == "A") { $totalCorrect++; }
-// if ($answer20) { $totalCorrect++; }
+
+if ($answer13 == "B") { $totalCorrect++; }
+
+if ($answer14 == "B") { $totalCorrect++; }
+
+if ($answer15 == "C") { $totalCorrect++; }
+
+if ($answer16 == "B") { $totalCorrect++; }
+
+if ($answer17 == "C") { $totalCorrect++; }
+
+if ($answer18 == "A") { $totalCorrect++; }
+
+if ($answer19 == "D") { $totalCorrect++; }
+
+if ($answer20 == "A") { $totalCorrect++; }
 
 echo "<div id='results'>$totalCorrect / 20 correct</div>";
+
+switch ($totalCorrect) {
+    case ($totalCorrect <= 4):
+        echo 'A for Effort..';
+        break;
+    case ($totalCorrect >= 5 && $totalCorrect <= 10):
+        echo 'Try again next time :)';
+        break;
+    case ($totalCorrect >= 11 && $totalCorrect <= 15):
+        echo 'You passed, barely..';
+        break;
+    case ($totalCorrect >= 16 && $totalCorrect <= 20):
+        echo 'Well done you passed this random quiz..';
+        break;
+
+}
 ?>
+
+
     
 </body>
 </html>

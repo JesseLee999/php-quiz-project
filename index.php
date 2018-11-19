@@ -21,7 +21,6 @@
 
       .box {
           margin: 0 250px;
-          
       }
 
     </style>
@@ -299,179 +298,180 @@
                     </div>
               </li>
               <li>
-                    <h2 class="sub-title">Apart from Venus, which planet rotates from east to west?</h2>   
+                    <h2 class="sub-title">How many squares are there on a chess board?</h2>   
                     <div>                       
                     <input type="radio" name="question-13-answers" id="question-13-answers-A" value="A" />
-                    <label for="question-13-answers-A">A) Jupiter</label>   
+                    <label for="question-13-answers-A">A) 49</label>   
                     </div>
                         
                     <div>
                     <input type="radio" name="question-13-answers" id="question-13-answers-B" value="B" />
-                    <label for="question-13-answers-B">B) Uranus</label>    
+                    <label for="question-13-answers-B">B) 64</label>    
                     </div>
                         
                     <div>    
-                    <input type="radio" name="question-13-answers" id="question-13-answers-C" value="C" />   
-                    <label for="question-13-answers-C">C) Saturn</label>   
+                    <input type="radio" name="question-13-answers" id="question-13-answers-C" value="C" /> 
+                    <label for="question-13-answers-C">C) 56</label>   
                     </div>
-                        
+            
                     <div>   
                     <input type="radio" name="question-13-answers" id="question-13-answers-D" value="D" />   
-                    <label for="question-13-answers-D">D) Mars</label>   
+                    <label for="question-13-answers-D">D) 52</label>   
                     </div>
               </li>
               <li>
-                    <h2 class="sub-title">Apart from Venus, which planet rotates from east to west?</h2>   
+                    <h2 class="sub-title">How many points does a compass have?</h2>   
                     <div>                       
                     <input type="radio" name="question-14-answers" id="question-14-answers-A" value="A" />
-                    <label for="question-14-answers-A">A) Jupiter</label>   
+                    <label for="question-14-answers-A">A) 4</label>   
                     </div>
                         
                     <div>
                     <input type="radio" name="question-14-answers" id="question-14-answers-B" value="B" />
-                    <label for="question-14-answers-B">B) Uranus</label>    
+                    <label for="question-14-answers-B">B) 32</label>    
                     </div>
                         
                     <div>    
-                    <input type="radio" name="question-14-answers" id="question-14-answers-C" value="C" />   
-                    <label for="question-14-answers-C">C) Saturn</label>   
+                    <input type="radio" name="question-14-answers" id="question-14-answers-C" value="C" /> 
+                    <label for="question-14-answers-C">C) 9</label>   
                     </div>
                         
                     <div>   
-                    <input type="radio" name="question-14-answers" id="question-14-answers-D" value="D" />   
-                    <label for="question-14-answers-D">D) Mars</label>   
+                    <input type="radio" name="question-14-answers" id="question-14-answers-D" value="D" />
+                    <label for="question-14-answers-D">D) 17</label>   
                     </div>
               </li>
               <li>
-                    <h2 class="sub-title">Apart from Venus, which planet rotates from east to west?</h2>   
+                    <h2 class="sub-title">Sea which separates Africa continent from Europe continent is?</h2>   
                     <div>                       
                     <input type="radio" name="question-15-answers" id="question-15-answers-A" value="A" />
-                    <label for="question-14-answers-A">A) Jupiter</label>   
+                    <label for="question-14-answers-A">A) Baltic Sea</label>   
                     </div>
                         
                     <div>
                     <input type="radio" name="question-15-answers" id="question-15-answers-B" value="B" />
-                    <label for="question-15-answers-B">B) Uranus</label>    
+                    <label for="question-15-answers-B">B) Black Sea</label>    
                     </div>
                         
                     <div>    
-                    <input type="radio" name="question-15-answers" id="question-15-answers-C" value="C" />   
-                    <label for="question-15-answers-C">C) Saturn</label>   
+                    <input type="radio" name="question-15-answers" id="question-15-answers-C" value="C" /> 
+                    <label for="question-15-answers-C">C) Mediterranean Sea</label>   
                     </div>
                         
                     <div>   
-                    <input type="radio" name="question-15-answers" id="question-15-answers-D" value="D" />   
-                    <label for="question-15-answers-D">D) Mars</label>   
+                    <input type="radio" name="question-15-answers" id="question-15-answers-D" value="D" /> 
+                    <label for="question-15-answers-D">D) Red Sea</label>   
                     </div>
               </li>
               <li>
-                    <h2 class="sub-title">Apart from Venus, which planet rotates from east to west?</h2>   
+                    <h2 class="sub-title">Smallest of the continents..</h2>   
                     <div>                       
                     <input type="radio" name="question-16-answers" id="question-16-answers-A" value="A" />
-                    <label for="question-16-answers-A">A) Jupiter</label>   
+                    <label for="question-16-answers-A">A) Asia</label>   
                     </div>
                         
                     <div>
                     <input type="radio" name="question-16-answers" id="question-16-answers-B" value="B" />
-                    <label for="question-16-answers-B">B) Uranus</label>    
+                    <label for="question-16-answers-B">B) Australia</label>    
                     </div>
                         
                     <div>    
-                    <input type="radio" name="question-16-answers" id="question-16-answers-C" value="C" />   
-                    <label for="question-16-answers-C">C) Saturn</label>   
+                    <input type="radio" name="question-16-answers" id="question-16-answers-C" value="C" /> 
+                    <label for="question-16-answers-C">C) Africa</label>   
                     </div>
                         
                     <div>   
                     <input type="radio" name="question-16-answers" id="question-16-answers-D" value="D" />   
-                    <label for="question-16-answers-D">D) Mars</label>   
+                    <label for="question-16-answers-D">D) America</label>   
                     </div>
               </li>
               <li>
-                    <h2 class="sub-title">Apart from Venus, which planet rotates from east to west?</h2>   
+                    <h2 class="sub-title">An astronaut in outer space will observe sky as</h2>   
                     <div>                       
                     <input type="radio" name="question-17-answers" id="question-17-answers-A" value="A" />
-                    <label for="question-16-answers-A">A) Jupiter</label>   
+                    <label for="question-16-answers-A">A) White</label>   
                     </div>
                         
                     <div>
                     <input type="radio" name="question-17-answers" id="question-17-answers-B" value="B" />
-                    <label for="question-17-answers-B">B) Uranus</label>    
+                    <label for="question-17-answers-B">B) Red</label>    
                     </div>
                         
                     <div>    
-                    <input type="radio" name="question-17-answers" id="question-17-answers-C" value="C" />   
-                    <label for="question-17-answers-C">C) Saturn</label>   
+                    <input type="radio" name="question-17-answers" id="question-17-answers-C" value="C" /> 
+                    <label for="question-17-answers-C">C) Black</label>   
                     </div>
                         
                     <div>   
-                    <input type="radio" name="question-17-answers" id="question-17-answers-D" value="D" />   
-                    <label for="question-17-answers-D">D) Mars</label>   
+                    <input type="radio" name="question-17-answers" id="question-17-answers-D" value="D" /> 
+                    <label for="question-17-answers-D">D) Blue</label>   
                     </div>
               </li>
               <li>
-                    <h2 class="sub-title">Apart from Venus, which planet rotates from east to west?</h2>   
+                    <h2 class="sub-title">At which particular place on earth are days and nights of equal length always?</h2>   
                     <div>                       
                     <input type="radio" name="question-18-answers" id="question-18-answers-A" value="A" />
-                    <label for="question-17-answers-A">A) Jupiter</label>   
+                    <label for="question-17-answers-A">A) Equator</label>   
                     </div>
                         
                     <div>
                     <input type="radio" name="question-18-answers" id="question-18-answers-B" value="B" />
-                    <label for="question-18-answers-B">B) Uranus</label>    
+                    <label for="question-18-answers-B">B) Poles</label>    
                     </div>
                         
                     <div>    
                     <input type="radio" name="question-18-answers" id="question-18-answers-C" value="C" />   
-                    <label for="question-18-answers-C">C) Saturn</label>   
+                    <label for="question-18-answers-C">C) Prime meridian</label>   
                     </div>
                         
                     <div>   
                     <input type="radio" name="question-18-answers" id="question-18-answers-D" value="D" />   
-                    <label for="question-18-answers-D">D) Mars</label>   
+                    <label for="question-18-answers-D">D) No where</label>   
                     </div>
               </li>
               <li>
-                    <h2 class="sub-title">Apart from Venus, which planet rotates from east to west?</h2>   
+                    <h2 class="sub-title">It is not advisable to sleep under a tree at night because of release of </h2>   
                     <div>                       
                     <input type="radio" name="question-19-answers" id="question-19-answers-A" value="A" />
-                    <label for="question-19-answers-A">A) Jupiter</label>   
+                    <label for="question-19-answers-A">A) oxygen in a lesser quantity than the required levels</label>   
                     </div>
                         
                     <div>
                     <input type="radio" name="question-19-answers" id="question-19-answers-B" value="B" />
-                    <label for="question-19-answers-B">B) Uranus</label>    
+                    <label for="question-19-answers-B">B) oxygen in large amounts</label>    
                     </div>
                         
                     <div>    
-                    <input type="radio" name="question-19-answers" id="question-19-answers-C" value="C" />   
-                    <label for="question-19-answers-C">C) Saturn</label>   
+                    <input type="radio" name="question-19-answers" id="question-19-answers-C" value="C" /> 
+                    <label for="question-19-answers-C">C) carbon monoxide</label>   
                     </div>
                         
                     <div>   
-                    <input type="radio" name="question-19-answers" id="question-19-answers-D" value="D" />   
-                    <label for="question-19-answers-D">D) Mars</label>   
+                    <input type="radio" name="question-19-answers" id="question-19-answers-D" value="D" /> 
+                    <label for="question-19-answers-D">D) carbon dioxide</label>   
                     </div>
               </li>
               <li>
-                    <h2 class="sub-title">If you choose an answer to this question at random, what is the chance you will be correct?</h2>   
+                    <h2 class="sub-title">A universal recipient belongs to the blood group</h2>   
                     <div>                       
                     <input type="radio" name="question-20-answers" id="question-20-answers-A" value="A" />
-                    <label for="question-20-answers-A">A) 25%</label>   
+                    <label for="question-20-answers-A">A) AB</label>   
                     </div>
                         
                     <div>
                     <input type="radio" name="question-20-answers" id="question-20-answers-B" value="B" />
-                    <label for="question-20-answers-B">B) 0%</label>    
+                    <label for="question-20-answers-B">B) O</label>    
                     </div>
                         
                     <div>    
-                    <input type="radio" name="question-20-answers" id="question-20-answers-C" value="C" />   
-                    <label for="question-20-answers-C">C) 25%</label>   
+                    <input type="radio" name="question-20-answers" id="question-20-answers-C" value="C" /> 
+                    <label for="question-20-answers-C">C) B</label>   
                     </div>
                         
                     <div>   
-                    <input type="radio" name="question-20-answers" id="question-20-answers-D" value="D" />   
-                    <label for="question-20-answers-D">D) 50%</label>   
+                    <input type="radio" name="question-20-answers" id="question-20-answers-D" value="D" /> 
+                    <label for="question-20-answers-D">D) A</label>  
+                    <div> 
               </li> 
               <br>      
             <input class="button is-black" type="submit" value="Submit Quiz" />
