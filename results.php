@@ -8,7 +8,7 @@
     <title>Results</title>
     <style>
         body {
-        background-image: url(img/sky_point_light.jpg);
+        background-image: url(img/sky_light_abstraction.jpg);
         background-size: cover;
         color: lightgrey;
       }
@@ -22,121 +22,123 @@
     </style>
 </head>
 <body>
-<section class="section"> 
-    <div class="box"> 
-        <div class="container">
+    <section class="section"> 
+        <div class="box"> 
+            <div class="container">
+                <?php 
 
-<?php 
-$answer1 = $_POST['question-1-answers'];
+                // variables attached to name conventions in the index
 
-$answer2 = $_POST['question-2-answers'];
+                $answer1 = $_POST['question-1-answers'];
 
-$answer3 = $_POST['question-3-answers'];
+                $answer2 = $_POST['question-2-answers'];
 
-$answer4 = $_POST['question-4-answers'];
+                $answer3 = $_POST['question-3-answers'];
 
-$answer5 = $_POST['question-5-answers'];
+                $answer4 = $_POST['question-4-answers'];
 
-$answer6 = $_POST['question-6-answers'];
+                $answer5 = $_POST['question-5-answers'];
 
-$answer7 = $_POST['question-7-answers'];
+                $answer6 = $_POST['question-6-answers'];
 
-$answer8 = $_POST['question-8-answers'];
+                $answer7 = $_POST['question-7-answers'];
 
-$answer9 = $_POST['question-9-answers'];
+                $answer8 = $_POST['question-8-answers'];
 
-$answer10 = $_POST['question-10-answers'];
+                $answer9 = $_POST['question-9-answers'];
 
-$answer11 = $_POST['question-11-answers'];
+                $answer10 = $_POST['question-10-answers'];
 
-$answer12 = $_POST['question-12-answers'];
+                $answer11 = $_POST['question-11-answers'];
 
-$answer13 = $_POST['question-13-answers'];
+                $answer12 = $_POST['question-12-answers'];
 
-$answer14 = $_POST['question-14-answers'];
+                $answer13 = $_POST['question-13-answers'];
 
-$answer15 = $_POST['question-14-answers'];
+                $answer14 = $_POST['question-14-answers'];
 
-$answer16 = $_POST['question-16-answers'];
+                $answer15 = $_POST['question-14-answers'];
 
-$answer17 = $_POST['question-17-answers'];
+                $answer16 = $_POST['question-16-answers'];
 
-$answer18 = $_POST['question-18-answers'];
+                $answer17 = $_POST['question-17-answers'];
 
-$answer19 = $_POST['question-19-answers'];
+                $answer18 = $_POST['question-18-answers'];
 
-$answer20 = $_POST['question-20-answers'];
+                $answer19 = $_POST['question-19-answers'];
 
-
-$totalCorrect = 1;
-
-if ($answer1 == "B") { $totalCorrect++; }
-
-if ($answer2 == "C") { $totalCorrect++; }
-
-if ($answer3 == "D") { $totalCorrect++; }
-
-if ($answer4 == "D") { $totalCorrect++; }
-
-if ($answer5 == "A") { $totalCorrect++; }
-
-if ($answer6 == "C") { $totalCorrect++; }
-
-if ($answer7 == "D") { $totalCorrect++; }
-
-if ($answer8 == "D") { $totalCorrect++; }
-
-if ($answer9 == "C") { $totalCorrect++; }
-
-if ($answer10 == "C") { $totalCorrect++; }
-
-if ($answer11 == "B") { $totalCorrect++; }
-
-if ($answer12 == "B") { $totalCorrect++; }
-
-if ($answer13 == "A") { $totalCorrect++; }
-
-if ($answer14 == "D") { $totalCorrect++; }
-
-if ($answer15 == "D") { $totalCorrect++; }
-
-if ($answer16 == "A") { $totalCorrect++; }
-
-if ($answer17 == "B") { $totalCorrect++; }
-
-if ($answer18 == "C") { $totalCorrect++; }
-
-if ($answer19 == "D") { $totalCorrect++; }
-
-if ($answer20 == "A") { $totalCorrect++; }
-
-echo "<div id='results'>$totalCorrect / 20 correct</div>";
-
-switch ($totalCorrect) {
-    case ($totalCorrect <= 4):
-        echo 'A for Effort..';
-        break;
-    case ($totalCorrect >= 5 && $totalCorrect <= 10):
-        echo 'Try again next time :)';
-        break;
-    case ($totalCorrect >= 11 && $totalCorrect <= 15):
-        echo 'You passed, barely.';
-        break;
-    case ($totalCorrect >= 16 && $totalCorrect <= 20):
-        echo 'Well done, you are a guardian of the galaxy.';
-        break;
-}
-?>
-<br>
-<br>
-<br>
-<a class="button is-dark" href="http://quiz/">Retake Quiz</a>
-</section>
-</div>
-</div>
+                $answer20 = $_POST['question-20-answers'];
 
 
+                $totalCorrect = 1;
 
-    
+                // marking system displaying correct answers
+
+                if ($answer1 == "B") { $totalCorrect++; }
+
+                if ($answer2 == "C") { $totalCorrect++; }
+
+                if ($answer3 == "D") { $totalCorrect++; }
+
+                if ($answer4 == "D") { $totalCorrect++; }
+
+                if ($answer5 == "A") { $totalCorrect++; }
+
+                if ($answer6 == "C") { $totalCorrect++; }
+
+                if ($answer7 == "D") { $totalCorrect++; }
+
+                if ($answer8 == "D") { $totalCorrect++; }
+
+                if ($answer9 == "C") { $totalCorrect++; }
+
+                if ($answer10 == "C") { $totalCorrect++; }
+
+                if ($answer11 == "B") { $totalCorrect++; }
+
+                if ($answer12 == "B") { $totalCorrect++; }
+
+                if ($answer13 == "A") { $totalCorrect++; }
+
+                if ($answer14 == "D") { $totalCorrect++; }
+
+                if ($answer15 == "D") { $totalCorrect++; }
+
+                if ($answer16 == "A") { $totalCorrect++; }
+
+                if ($answer17 == "B") { $totalCorrect++; }
+
+                if ($answer18 == "C") { $totalCorrect++; }
+
+                if ($answer19 == "D") { $totalCorrect++; }
+
+                if ($answer20 == "A") { $totalCorrect++; }
+
+                echo "<div id='results'>$totalCorrect / 20 correct</div>";
+
+                // different outputs varying on the mark obtained
+
+                switch ($totalCorrect) {
+                    case ($totalCorrect <= 4):
+                        echo 'A for Effort..';
+                        break;
+                    case ($totalCorrect >= 5 && $totalCorrect <= 9):
+                        echo 'Try again next time :)';
+                        break;
+                    case ($totalCorrect >= 10 && $totalCorrect <= 14):
+                        echo 'You passed, barely.';
+                        break;
+                    case ($totalCorrect >= 15 && $totalCorrect <= 20):
+                        echo 'Well done, you are a guardian of the galaxy.';
+                        break;
+                }
+                ?>
+                <br>
+                <br>
+                <br>
+                <a class="button is-dark" href="http://quiz/">Retake Quiz</a>
+            </div>
+        </div>
+    </section>  
 </body>
 </html>
