@@ -22,9 +22,7 @@ Technologies and Tools Used:
 |:----------------:|
 | VSCODE           |
 | GitBash          |
-| jonchretien.com  |
 | W3Schools        |
-| CSStricks        |
 | Stackoverflow    |
 | Bulma            |
 
