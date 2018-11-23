@@ -27,50 +27,54 @@
             <div class="container">
                 <?php 
 
+                // variable that converts numbers to letters
+
+                $convert = array('A', 'B', 'C', 'D');
+                
                 // variables attached to name conventions in the index
 
-                $answer1 = $_POST['question-1-answers'];
+                $answer1 = $convert[$_POST['question-1-answers']];
 
-                $answer2 = $_POST['question-2-answers'];
+                $answer2 = $convert[$_POST['question-2-answers']];
 
-                $answer3 = $_POST['question-3-answers'];
+                $answer3 = $convert[$_POST['question-3-answers']];
 
-                $answer4 = $_POST['question-4-answers'];
+                $answer4 = $convert[$_POST['question-4-answers']];
 
-                $answer5 = $_POST['question-5-answers'];
+                $answer5 = $convert[$_POST['question-5-answers']];
 
-                $answer6 = $_POST['question-6-answers'];
+                $answer6 = $convert[$_POST['question-6-answers']];
 
-                $answer7 = $_POST['question-7-answers'];
+                $answer7 = $convert[$_POST['question-7-answers']];
 
-                $answer8 = $_POST['question-8-answers'];
+                $answer8 = $convert[$_POST['question-8-answers']];
 
-                $answer9 = $_POST['question-9-answers'];
+                $answer9 = $convert[$_POST['question-9-answers']];
 
-                $answer10 = $_POST['question-10-answers'];
+                $answer10 = $convert[$_POST['question-10-answers']];
 
-                $answer11 = $_POST['question-11-answers'];
+                $answer11 = $convert[$_POST['question-11-answers']];
 
-                $answer12 = $_POST['question-12-answers'];
+                $answer12 = $convert[$_POST['question-12-answers']];
 
-                $answer13 = $_POST['question-13-answers'];
+                $answer13 = $convert[$_POST['question-13-answers']];
 
-                $answer14 = $_POST['question-14-answers'];
+                $answer14 = $convert[$_POST['question-14-answers']];
 
-                $answer15 = $_POST['question-14-answers'];
+                $answer15 = $convert[$_POST['question-15-answers']];
 
-                $answer16 = $_POST['question-16-answers'];
+                $answer16 = $convert[$_POST['question-16-answers']];
 
-                $answer17 = $_POST['question-17-answers'];
+                $answer17 = $convert[$_POST['question-17-answers']];
 
-                $answer18 = $_POST['question-18-answers'];
+                $answer18 = $convert[$_POST['question-18-answers']];
 
-                $answer19 = $_POST['question-19-answers'];
+                $answer19 = $convert[$_POST['question-19-answers']];
 
-                $answer20 = $_POST['question-20-answers'];
+                $answer20 = $convert[$_POST['question-20-answers']];
 
 
-                $totalCorrect = 1;
+                $totalCorrect = 0;
 
                 // marking system displaying correct answers
 
@@ -78,41 +82,41 @@
 
                 if ($answer2 == "C") { $totalCorrect++; }
 
-                if ($answer3 == "D") { $totalCorrect++; }
+                if ($answer3 == "C") { $totalCorrect++; }
 
                 if ($answer4 == "D") { $totalCorrect++; }
 
-                if ($answer5 == "A") { $totalCorrect++; }
+                if ($answer5 == "D") { $totalCorrect++; }
 
                 if ($answer6 == "C") { $totalCorrect++; }
 
-                if ($answer7 == "D") { $totalCorrect++; }
+                if ($answer7 == "C") { $totalCorrect++; }
 
-                if ($answer8 == "D") { $totalCorrect++; }
+                if ($answer8 == "C") { $totalCorrect++; }
 
-                if ($answer9 == "C") { $totalCorrect++; }
+                if ($answer9 == "B") { $totalCorrect++; }
 
-                if ($answer10 == "C") { $totalCorrect++; }
+                if ($answer10 == "A") { $totalCorrect++; }
 
                 if ($answer11 == "B") { $totalCorrect++; }
 
-                if ($answer12 == "B") { $totalCorrect++; }
+                if ($answer12 == "D") { $totalCorrect++; }
 
                 if ($answer13 == "A") { $totalCorrect++; }
 
-                if ($answer14 == "D") { $totalCorrect++; }
+                if ($answer14 == "B") { $totalCorrect++; }
 
-                if ($answer15 == "D") { $totalCorrect++; }
+                if ($answer15 == "C") { $totalCorrect++; }
 
-                if ($answer16 == "A") { $totalCorrect++; }
+                if ($answer16 == "B") { $totalCorrect++; }
 
-                if ($answer17 == "B") { $totalCorrect++; }
+                if ($answer17 == "A") { $totalCorrect++; }
 
-                if ($answer18 == "C") { $totalCorrect++; }
+                if ($answer18 == "D") { $totalCorrect++; }
 
                 if ($answer19 == "D") { $totalCorrect++; }
 
-                if ($answer20 == "A") { $totalCorrect++; }
+                if ($answer20 == "B") { $totalCorrect++; }
 
                 echo "<div id='results'>$totalCorrect / 20 correct</div>";
 
@@ -126,7 +130,7 @@
                         echo 'Try again next time :)';
                         break;
                     case ($totalCorrect >= 10 && $totalCorrect <= 14):
-                        echo 'You passed, barely.';
+                        echo 'You passed, and now all they say is congratulations';
                         break;
                     case ($totalCorrect >= 15 && $totalCorrect <= 20):
                         echo 'Well done, you are a guardian of the galaxy.';
