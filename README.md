@@ -25,11 +25,7 @@ Technologies and Tools Used:
 | W3Schools        |
 | Stackoverflow    |
 | Bulma            |
-
-### Live Link
-
-View Live Site Here: 
-
+ 
 ### Creator
 
 - Jesse Dilgee
