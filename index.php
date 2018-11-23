@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <title>Questionnaire</title>
+    <title>Quiz</title>
     <style>
       @font-face {
             font-family: 'Space';
@@ -383,7 +383,7 @@
                                                 foreach ($qstn as $key => $answr) {
                                                 ?> 
                                                       <div>                       
-                                                            <input type="radio" name="<?php echo $n; ?>" id="question-1-answers-A" value="<?php echo $key; ?>">
+                                                            <input type="radio" name="<?php echo $n; ?>" id="question-1-answers" value="<?php echo $key; ?>">
                                                             <label for="<?php echo $n; ?>"><?php echo $answr;?></label>       
                                                       </div>
                                                 <?php

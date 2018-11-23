@@ -22,10 +22,16 @@ Technologies and Tools Used:
 |:----------------:|
 | VSCODE           |
 | GitBash          |
+| jonchretien.com  |
 | W3Schools        |
+| CSStricks        |
 | Stackoverflow    |
 | Bulma            |
- 
+
+### Live Link
+
+View Live Site Here: 
+
 ### Creator
 
 - Jesse Dilgee
