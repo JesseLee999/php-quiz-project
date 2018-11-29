@@ -1,37 +1,43 @@
-# quiz-project
+# Create a quiz project
 
-Creating a quiz using PHP loops.
+Creating a quiz with PHP Loops. Quiz based on astrology and the zodiac. 
 
-## Prevalent Technologies Used
+## Getting Started
 
-- PHP:
-    Create all the markup and functions.
-- CSS:
-    Styling the forms with Bulma framework and own styles.
+* Clone the repository to your desktop
+* Upload the path of the index and results onto your localhost
+* Refresh
+* Open your localhost
 
-### Other Technologies Used
+### Prerequisites
 
-Technologies and Tools Used:
+```
+Bulma Framework: https://bulma.io/
 
-|**Languages**|
-|:----------------:|
-| CSS              |
-| PHP             |
+* Download the Bulma ZIP on the site above
+* Copy the bulma.css/main.css into the project folder
+```
 
-|**Tools**|
-|:----------------:|
-| VSCODE           |
-| GitBash          |
-| jonchretien.com  |
-| W3Schools        |
-| CSStricks        |
-| Stackoverflow    |
-| Bulma            |
+### Break down into end to end tests
 
-### Live Link
+Tests whether the quiz reads all the allocated questions and transfers it into a score
 
-View Live Site Here: 
+```
+Fill out the quiz and submit it
+```
 
-### Creator
+## Built With
 
-- Jesse Dilgee
+* [Bulma](https://bulma.io/) - The web framework used
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Jesse Dilgee** - *Initial work* - [JesseLee999](https://github.com/JesseLee999)
+
+## Acknowledgments
+
+* Evan Christians  

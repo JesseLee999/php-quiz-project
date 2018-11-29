@@ -383,7 +383,7 @@
                                                 foreach ($qstn as $key => $answr) {
                                                 ?> 
                                                       <div>                       
-                                                            <input type="radio" name="<?php echo $n; ?>" id="question-1-answers" value="<?php echo $key; ?>">
+                                                            <input type="radio" name="<?php echo $n; ?>" id="question-1-answers" value="<?php echo $key; ?>" required oninvalid="this.setCustomValidity('Oops you missed something')">
                                                             <label for="<?php echo $n; ?>"><?php echo $answr;?></label>       
                                                       </div>
                                                 <?php
